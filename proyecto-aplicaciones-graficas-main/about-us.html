@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>About Us</title>    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=si">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 10]>
+
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap rd-navbar-modern-wrap">
+          <nav class="rd-navbar rd-navbar-modern" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="70px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button aria-label="boton" class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/LogoFarm.webp" alt="imagen" width="196" height="47"/></a></div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Basket-->
+                    <div class="rd-navbar-basket-wrap" >
+                      <button aria-label="boton" onclick="UpDteInfo(true)"
+                        class="rd-navbar-basket fl-bigmug-line-shopping198"
+                        data-rd-navbar-toggle=".cart-inline"
+                      >
+                        <span id="totaldearet"> </span>
+                      </button>
+                      <div class="cart-inline">
+                        <div class="cart-inline-header">
+                          <h5 class="cart-inline-title">
+                            En carrito: <span id="spanidcartotal"> </span> producto
+                          </h5>
+                          <h6 class="cart-inline-title">
+                            Precio total:<span id="spanidcartotalpagar"> </span>
+                          </h6>
+                        </div>
+                        <div class="cart-inline-body" id="cartinlinebody" style="
+                        max-height: 400px;
+                        overflow-y:scroll;
+                        overflow-x: hidden;">
+                          
+                        </div>
+                        <div class="cart-inline-footer">
+                          <div class="group-sm">
+                            <a
+                              class="button button-md button-default-outline-2 button-wapasha"
+                              href="#"
+                              >Ir al carrito</a
+                            ><a
+                              class="button button-md button-primary button-pipaluk"
+                              href="#"
+                              >Caja</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a
+                    
+                      class="rd-navbar-basket rd-navbar-basket-mobile fl-bigmug-line-shopping198"
+                      href="#"
+                      
+                      ><span></span></a
+                    >
+                    <!-- RD Navbar Search-->
+                    <div class="rd-navbar-search">
+                      <button aria-label="boton" class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search"><span></span></button>
+                      <form class="rd-search" action="#">
+                        <div class="form-wrap">
+                          <label class="form-label" for="rd-navbar-search-form-input">Search...</label>
+                          <input class="rd-navbar-search-form-input form-input" id="rd-navbar-search-form-input" type="text" name="search">
+                          <button aria-label="boton" class="rd-search-form-submit fl-bigmug-line-search74" type="submit"></button>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">INICIO</a>
+                      </li>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="about-us.html">NOSOTROS</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="products.html">Productos</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contact-us.html">CONTACTO</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rd-navbar-project-hamburger" data-multitoggle=".rd-navbar-main" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate>
+                    <div class="project-hamburger"><span class="project-hamburger-arrow-top"></span><span class="project-hamburger-arrow-center"></span><span class="project-hamburger-arrow-bottom"></span></div>
+                    <div class="project-hamburger-2"><span class="project-hamburger-arrow"></span><span class="project-hamburger-arrow"></span><span class="project-hamburger-arrow"></span>
+                    </div>
+                    <div class="project-close"><span></span><span></span></div>
+                  </div>
+                </div>
+                                <div class="rd-navbar-project rd-navbar-modern-project">
+                  <ul class="list-inline rd-navbar-modern-list-social">
+                    <li><a class="icon fa fa-user" href="#"></a></li>
+                  </ul>
+                  <label for="" id="labelusername"><a href="./bat/clients/inicio.html">Iniciar Sesión</a></label>
+
+                  <div class="rd-navbar-project-modern-header">
+                    <h4 class="rd-navbar-project-modern-title">Contáctanos</h4>
+                    <div class="rd-navbar-project-hamburger" data-multitoggle=".rd-navbar-main" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate>
+                      <div class="project-close"><span></span><span></span></div>
+                    </div>
+                  </div>
+                  <div class="rd-navbar-project-content rd-navbar-modern-project-content">
+                    <div>
+                      <p>La farmacia es el lugar donde la salud y la esperanza se combinan</p>
+                      <div class="heading-6 subtitle">Nuestros Contactos</div>
+                      
+                      <ul class="rd-navbar-modern-contacts">
+                        <li>
+                          <div class="unit unit-spacing-sm">
+                            <div class="unit-left"><span class="icon fa fa-phone"></span></div>
+                            <div class="unit-body"><a class="link-phone" href="tel:#">+505 2557-0464</a></div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="unit unit-spacing-sm">
+                            <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
+                            <div class="unit-body"><a class="link-location" href="#">BO. 17 DE OCTUBRE ESCUELA RAFAELA HERRERA 2C. O. 1/2C. S.</a></div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="unit unit-spacing-sm">
+                            <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
+                            <div class="unit-body"><a class="link-email" href="mailto:#">Medifarmv2023@gmail.com</a></div>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul class="list-inline rd-navbar-modern-list-social">
+                        <li><a class="icon fa fa-facebook" href="#"></a></li>
+                        <li><a class="icon fa fa-twitter" href="#"></a></li>
+                        <li><a class="icon fa fa-google-plus" href="#"></a></li>
+                        <li><a class="icon fa fa-instagram" href="#"></a></li>
+                        <li><a class="icon fa fa-pinterest" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Breadcrumbs -->
+      <section class="breadcrumbs-custom-inset">
+        <div class="breadcrumbs-custom context-dark bg-overlay-46">
+          <div class="container">
+            <h2 class="breadcrumbs-custom-title">Acerca de nuestra farmacia</h2>
+            <ul class="breadcrumbs-custom-path">
+              <li><a href="index.html">INICIO</a></li>
+              <li class="active">NOSOTROS</li>
+            </ul>
+          </div>
+          <div class="box-position" style="background-image: url(images/Banner11a.webp);"></div>
+        </div>
+      </section>
+      <!-- Why choose us-->
+      <section class="section section-md section-first bg-default text-md-left">
+        <div class="container">
+          <div class="row row-50 justify-content-center">
+            <div class="col-md-10 col-lg-5 col-xl-6"><img src="./images/imgpq.webp" alt="" width="519" height="446"/>
+            </div>
+            <div class="col-md-10 col-lg-7 col-xl-6">
+              <h2>¿Por qué elegirnos?</h2>
+              <!-- Bootstrap tabs-->
+              <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-4">
+                <!-- Nav tabs-->
+                <ul class="nav nav-tabs">
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-4-1" data-toggle="tab">Nuestra misión</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-2" data-toggle="tab" style="color: black;">Nuestra visión</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-4-3" data-toggle="tab" style="color: black;">Nuestra valores</a></li>
+                </ul>
+                <!-- Tab panes-->
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="tabs-4-1">
+                    <p>Mejorar la calidad de vida de nuestros clientes, a través del mejor nivel de servicio y precios competitivos. Innovar continuamente orientando nuestro esfuerzo en ser la mejor alternativa en Farmacia, para así siempre superar las expectativas de nuestros clientes.</p>
+                    <div class="group-md group-middle">
+                      <a class="button button-width-xl-230 button-primary button-pipaluk" href="#">Leer más</a>
+                      <a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contáctenos</a>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-4-2">
+                    <p>Ser líderes Centroamericanos en el comercio especializado de Farmacia que es nuestro negocio principal, así como productos de cuidado personal y de consumo brindando la mejor experiencia de compra, conveniencia y seguridad</p>
+                    <div class="group-md group-middle">
+                      <a class="button button-width-xl-230 button-primary button-pipaluk" href="#">Leer más</a>
+                      <a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contáctenos</a>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-4-3">
+                    <div class="text-center text-sm-left offset-top-30">
+                      <ul class="row-16 list-0 list-custom list-marked list-marked-sm list-marked-secondary">
+                        <li>Calidad de Servicio al cliente</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Conducta ética</li>
+                        <li>Innovación</li>
+                        <li>Orientado a resultados</li>
+                      </ul>
+                    </div>
+                    <div class="group-md group-middle">
+                      <a class="button button-width-xl-230 button-primary button-pipaluk" href="#">Leer más</a>
+                      <a class="button button-width-xl-310 button-default-outline button-wapasha" href="contact-us.html">Contáctenos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest Projects-->
+      <section class="section section-md section-fluid bg-default">
+        <div class="container">
+          <h2>Nuestra historia</h2>
+        </div>
+        <!-- Owl Carousel-->
+        <div class="owl-carousel owl-classic owl-timeline" data-items="1" data-md-items="2" data-lg-items="3" data-xl-items="4" data-margin="30" data-stage-padding="15" data-xxl-stage-padding="0" data-autoplay="true" data-nav="true" data-dots="true">
+          <div class="owl-item">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-mary thumbnail-md">
+              <div class="thumbnail-mary-figure"><img src="./images/line1.webp" alt="" width="420" height="308"/>
+              </div>
+              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="#" data-lightgallery="item"><img src="images/project-1-420x308.jpg" alt="" width="420" height="308"/></a>
+              </div>
+            </article>
+            <div class="thumbnail-mary-description">
+              <h5 class="thumbnail-mary-project"><a href="#">Apertura de la farmacia</a></h5><span class="thumbnail-mary-decor"></span>
+              <h5 class="thumbnail-mary-time">
+                <time datetime="1999">1999</time>
+              </h5>
+            </div>
+          </div>
+          <div class="owl-item">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-mary thumbnail-md">
+              <div class="thumbnail-mary-figure"><img src="./images/line2.webp" alt="" width="420" height="308"/>
+              </div>
+              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="#" data-lightgallery="item"><img src="images/project-2-420x308.jpg" alt="" width="420" height="308"/></a>
+              </div>
+            </article>
+            <div class="thumbnail-mary-description">
+              <h5 class="thumbnail-mary-project"><a href="#">Ampliación de la farmacia</a></h5><span class="thumbnail-mary-decor"></span>
+              <h5 class="thumbnail-mary-time">
+                <time datetime="2005">2005</time>
+              </h5>
+            </div>
+          </div>
+          <div class="owl-item">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-mary thumbnail-md">
+              <div class="thumbnail-mary-figure"><img src="./images/line3.webp" alt="" width="420" height="308"/>
+              </div>
+              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="#" data-lightgallery="item"><img src="images/project-3-420x308.jpg" alt="" width="420" height="308"/></a>
+              </div>
+            </article>
+            <div class="thumbnail-mary-description">
+              <h5 class="thumbnail-mary-project"><a href="#">Intr. de nuevos servicios</a></h5><span class="thumbnail-mary-decor"></span>
+              <h5 class="thumbnail-mary-time">
+                <time datetime="2010">2010</time>
+              </h5>
+            </div>
+          </div>
+          <div class="owl-item">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-mary thumbnail-md">
+              <div class="thumbnail-mary-figure"><img src="./images/line4.webp" alt="" width="420" height="308"/>
+              </div>
+              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="#" data-lightgallery="item"><img src="images/project-4-420x308.jpg" alt="" width="420" height="308"/></a>
+              </div>
+            </article>
+            <div class="thumbnail-mary-description">
+              <h5 class="thumbnail-mary-project"><a href="#">Imple. de tec. avanzada</a></h5><span class="thumbnail-mary-decor"></span>
+              <h5 class="thumbnail-mary-time">
+                <time datetime="2013">2013</time>
+              </h5>
+            </div>
+          </div>
+          <div class="owl-item">
+            <!-- Thumbnail Classic-->
+            <article class="thumbnail thumbnail-mary thumbnail-md">
+              <div class="thumbnail-mary-figure"><img src="./images/5.webp" alt="" width="420" height="308"/>
+              </div>
+              <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="#" data-lightgallery="item"><img src="images/project-5-420x308.jpg" alt="" width="420" height="308"/></a>
+              </div>
+            </article>
+            <div class="thumbnail-mary-description">
+              <h5 class="thumbnail-mary-project"><a href="#">Expansión en línea</a></h5><span class="thumbnail-mary-decor"></span>
+              <h5 class="thumbnail-mary-time">
+                <time datetime="2019">2019</time>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- What people say-->
+      <section class="section context-dark">
+        <div class="parallax-container" data-parallax-img="./images/Lo que dice la gente.webp">
+          <div class="parallax-content section-md bg-overlay-2-21">
+            <div class="container">
+              <div class="oh">
+                <h2 class="wow slideInUp" data-wow-delay="0s">Lo que dice la gente</h2>
+              </div>
+              <!-- Owl Carousel-->
+              <div class="owl-carousel owl-modern" data-items="1" data-stage-padding="15" data-margin="30" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true">
+                <!-- Quote Lisa-->
+                <article class="quote-lisa">
+                  <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="images/Perfil1.webp" alt="" width="100" height="100"/></a>
+                    <div class="quote-lisa-text">
+                      <p class="q">"Realmente aprecio la gran variedad de productos y servicios que ofrece esta farmacia. Siempre encuentro lo que necesito, ya sea un medicamento recetado o algún producto de cuidado personal, y la atención al cliente es excelente."</p>
+                    </div>
+                    <h5 class="quote-lisa-cite"><a href="#">Franco de los Ángeles Sequiera Fuentes</a></h5>
+                    <p class="quote-lisa-status">Cliente regular</p>
+                  </div>
+                </article>
+                <!-- Quote Lisa-->
+                <article class="quote-lisa">
+                  <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="images/Perfil2.webp" alt="" width="100" height="100"/></a>
+                    <div class="quote-lisa-text">
+                      <p class="q">"La farmacia es mi lugar de confianza para cuidar de mi salud y bienestar. Los farmacéuticos aquí son muy profesionales y siempre están dispuestos a brindar información y asesoramiento sobre los productos y medicamentos que necesito. Me siento muy agradecido por el servicio que brindan."</p>
+                    </div>
+                    <h5 class="quote-lisa-cite"><a href="#">Christopher Antonio Marín Reyes</a></h5>
+                    <p class="quote-lisa-status">Cliente regular</p>
+                  </div>
+                </article>
+                <!-- Quote Lisa-->
+                <article class="quote-lisa">
+                  <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="images/Perfil3.webp" alt="" width="100" height="100"/></a>
+                    <div class="quote-lisa-text">
+                      <p class="q">"Desde que comencé a visitar esta farmacia, mi vida ha mejorado significativamente. Los farmacéuticos son muy amables y siempre me hacen sentir bienvenido. Además, siempre tienen una amplia gama de productos, desde vitaminas hasta productos de belleza, que me ayudan a mantenerme saludable y feliz."</p>
+                    </div>
+                    <h5 class="quote-lisa-cite"><a href="#">Carlos Arturo Contreras López</a></h5>
+                    <p class="quote-lisa-status">Cliente regular</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-md section-last bg-gray-100">
+        <div class="container">
+          <div class="oh">
+            <h2 class="wow slideInUp" data-wow-delay="0s">Nuestros proveedores</h2>
+          </div>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel owl-clients owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="4" data-margin="30" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut"><a class="clients-modern" href="#">
+            <img src="./images/prov1.webp" alt="" width="270" height="145"/></a><a class="clients-modern" href="#">
+            <img src="./images/prov2.webp" alt="" width="270" height="145"/></a><a class="clients-modern" href="#">
+            <img src="./images/prov3.webp" alt="" width="270" height="145"/></a><a class="clients-modern" href="#">
+            <img src="./images/prov4.webp" alt="" width="270" height="145"/></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Page Footer-->
+      <footer class="section footer-variant-2 footer-modern context-dark ">
+        <div class="footer-variant-2-content" style="color:white">
+          <div class="container">
+            <div class="row row-40 justify-content-between">
+              <div class="col-sm-6 col-lg-4 col-xl-3">
+                <div class="oh-desktop">
+                  <div class="wow slideInRight" data-wow-delay="0s">
+                    <div class="footer-brand"><a href="about-us.html">
+                      <img src="./images/LogoFarm.webp" alt="" width="196" height="42"/>
+                    </a>
+                  </div>
+                    <p>¡Qué alivio proporciona el saber que se cuenta con una farmacia que cualquier tratamiento puede proveer!</p>
+                    <ul class="footer-contacts d-inline-block d-md-block">
+                      <li>
+                        <div class="unit unit-spacing-xs">
+                          <div class="unit-left"><span class="icon fa fa-phone"></span></div>
+                          <div class="unit-body"><a class="link-phone" href="tel:#">+505 2557-0464</a></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit unit-spacing-xs">
+                          <div class="unit-left"><span class="icon fa fa-clock-o"></span></div>
+                          <div class="unit-body">
+                            <p>Lun-Sab: 07:00AM - 05:00PM</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit unit-spacing-xs">
+                          <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
+                          <div class="unit-body"><a class="link-location" href="#">BO. 17 DE OCTUBRE ESCUELA RAFAELA HERRERA 2C. O. 1/2C. S.</a></div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 col-xl-4">
+                <div class="oh-desktop">
+                  <div class="inset-top-18 wow slideInDown" data-wow-delay="0s">
+                    <h5>Boletín</h5>
+                    <p>Suscríbase a nuestro boletín electrónico para recibir noticias y consejos.</p>
+                    <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
+                      <div class="form-wrap">
+                        <input class="form-input" id="subscribe-form-5-email" type="email" name="email" data-constraints="@Email @Required">
+                        <label class="form-label" for="subscribe-form-5-email">Ingrese su correo electrónico</label>
+                      </div>
+                      <button aria-label="boton" class="button button-block button-white" type="submit">Subscribir</button>
+                    </form>
+                    <div class="group-lg group-middle">
+                      <p class="text-white">Síguenos</p>
+                      <div>
+                        <ul class="list-inline list-inline-sm footer-social-list-2">
+                          <li><a class="icon fa fa-facebook" href="#"></a></li>
+                          <li><a class="icon fa fa-twitter" href="#"></a></li>
+                          <li><a class="icon fa fa-google-plus" href="#"></a></li>
+                          <li><a class="icon fa fa-instagram" href="#"></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-xl-3">
+                <div class="oh-desktop">
+                  <div class="inset-top-18 wow slideInLeft" data-wow-delay="0s">
+                    <h5>Galería</h5>
+                    <div class="row row-10 gutters-10" data-lightgallery="group">
+                      <div class="col-6 col-sm-3 col-lg-6">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-mary">
+                          <div class="thumbnail-mary-figure"><img src="./images/1.webp" alt="imagen" width="129" height="120"/>
+                          </div>
+                          <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" alt="imagen" width="129" height="120" href="./images/1.webp" data-lightgallery="item">
+                              <img src="./images/1.webp" alt="imagen" width="129" height="120"/></a>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-6 col-sm-3 col-lg-6">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-mary">
+                          <div class="thumbnail-mary-figure"><img src="./images/2.webp" alt="" width="129" height="120"/>
+                          </div>
+                          <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" href="./images/2.webp" data-lightgallery="item">
+                              <img src="./images/2.webp" alt="" width="129" height="120"/></a>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-6 col-sm-3 col-lg-6">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-mary">
+                          <div class="thumbnail-mary-figure"><img src="./images/3.webp" alt="" width="129" height="120"/>
+                          </div>
+                          <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" href="./images/3.webp" data-lightgallery="item">
+                              <img src="./images/3.webp" alt="" width="129" height="120"/></a>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="col-6 col-sm-3 col-lg-6">
+                        <!-- Thumbnail Classic-->
+                        <article class="thumbnail thumbnail-mary">
+                          <div class="thumbnail-mary-figure"><img src="./images/4.webp" alt="" width="129" height="120"/>
+                          </div>
+                          <div class="thumbnail-mary-caption">
+                            <a class="icon fl-bigmug-line-zoom60" href="./images/4.webp" data-lightgallery="item">
+                              <img src="images/4.webp" alt="" width="129" height="120"/></a>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-variant-2-bottom-panel">
+          <div class="container">
+            <!-- Rights-->
+            <div class="group-sm group-sm-justify" style="color:white">
+              <p class="rights"><span class="copyright-year" style="color:white"></span> <span style="color:white">MEDIFARM . Todos los derechos reservados</span>
+              </p>
+              <p class="rights"><a href="./contact-us.html" style="color:white">MEDIFARM</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script><script src="js/car.js"></script>
+<script src="./bat/clients/main.js"></script>
+<script src="./bat/clients/main.js"></script>
+<script src="./bat/clients/main.js"></script>
+<script src="./bat/clients/main.js"></script>
+  </body>
+</html>

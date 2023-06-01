@@ -1,0 +1,40 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 70px;
+
+  }
+  
+  .product {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+ 
+  
+.imgProduct{
+	min-width: 170px;
+	min-height: 100px;
+
+}
+
+.CarImg{
+  min-width: 108px;
+	min-height: 100px;
+	max-width: 108px;
+	max-height: 100px;
+}
+  
+  .product h3 {
+    margin-top: 10px;
+    font-size: 200%;
+  }
+  
+  .product p {
+    margin-top: 5px;
+  }
+  
